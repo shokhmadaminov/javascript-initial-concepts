@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Study</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        li {
+            color: green;
+        }
+        li:not(:last-child) {
+            margin-bottom: 5px;
+        }
+        span {
+            color: red;
+        }
+        .truthy-falsy {
+            padding-top: 50px;
+            display: flex;
+            gap: 100px;
+            position: relative;
+        }
+        .truthy-falsy h2 {
+            position: absolute;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>JAVASCRIPT Asoslari </h1>
+
+    <!-- JAVASCRIPT METHODLARI -->
+    <ol>
+        <h2>JavaScript "String" Metodlari</h2>
+        <li>toUppercase() - <span>Harflarni katta qilib beradi</span></li>
+        <li>toLowercase() - <span>Harflarni kichik qilib beradi</span></li>
+        <li>indexOf() - <span>Stringni birinchisini tartib raqamini chiqarib beradi</span></li>
+        <li>lastIndexOf() - <span>Stringni oxirgi tartib raqamini chiqarib beradi</span></li>
+        <li>slice() - <span>Tartib raqami bo'yicha berilgan sondan keyingi harflarni oladi</span></li>
+        <li>substr() - <span>Tartib raqami bo'yicha berilgan sondan keyin nechta harfni olishniyam aytishimiz mumkin</span></li>
+        <li>replace() - <span>Stringdagi biron bir harf o'rniga boshqasini qo'yishimiz mumkin</span></li>
+        <li>charAt() - <span>Har doim string ichidagi qiymatni birinchi harfini olib beradi</span></li>
+        <li>trim() - <span>Stringdagi bo'sh joylarni yo'qotib beradi</span></li>
+        <li>split() - <span>Stringni harflarini bo'lishda va x.k.z larda kerak bo'ladi</span></li>
+        <li>includes() - <span>Includes bu tekshiruvchi, tarkibda shu harf yoki biron nima bormi yoki yo'qmi bilib beradi</span></li>
+        <li>startWith() - <span>Stringni shu harflardan boshlangan yoki yo'qligini tekshirishimiz mumkin!</span></li>
+        <li>substring() - <span>String ichidagi biron bir joylarini kesib ajratib olishimiz mumkin!</span></li>
+        <li>eval() - <span>Eval metodi sizga kankulyator vazifasini bajarib berishi mumkin. Ya'ni, stringda sonlar ustda matematik amallar bajarilganda evalni ishlatishimiz mumkin.</span></li>
+    </ol>
+    <!-- JAVASCRIPT METHODLARI END -->
+
+    <!-- JAVASCRIPT PROPERTYLARI -->
+    <ol>
+        <h2>JavaScript Propertylari</h2>
+        <li>length - <span>Berilgan so'z yoki obyektni sonini yoki uzunligini aniqlashda ishlatamiz</span></li>
+        <li>typeOf - <span>Berilgan ma'lumotni qanaqa turga mansubligini aniqlaydi</span></li>
+    </ol>
+    <!-- JAVASCRIPT PROPERTYLARI END -->
+
+    <!-- JAVASCRIPT PROPERTYLARI -->
+    <ol>
+        <h2>JavaScript matematik amallari</h2>
+        <li>( + ) - <span>Qo'shish</span></li>
+        <li>( - ) - <span>Ayrish</span></li>
+        <li>( * ) - <span>Ko'paytirish</span></li>
+        <li>( / ) - <span>Bo'lish</span></li>
+        <li>( ** ) - <span>Darajaga ko'tarish</span></li>
+        <li>( % ) - <span>Qoldiqli bo'lish</span></li>
+        <li>( ++ ) - <span>bir dona qo'shib qo'yish</span></li>
+        <li>( -- ) - <span>bir dona ayrib qo'yish</span></li>
+    </ol>
+    <!-- JAVASCRIPT PROPERTYLARI END -->
+
+    <!-- JAVASCRIPT ARRAY METHODLAR -->
+    <ol>
+        <h2>JavaScript "Array" Metodlar</h2>
+        <li>indexOf() - <span>Array ichidagi ma'lumotlar tartib raqamini chiqarib beradi</span></li>
+        <li>concat() - <span>Arraylarni bir-biriga qo'shib beradi</span></li>
+        <li>push() - <span>Arrayni oxiriga biron bir element qo'shib beradi</span></li>
+        <li>pop() - <span>Arrayni oxiridan biron bir elementni olib tashlaydi</span></li>
+        <li>unshift() - <span>Arrayni boshiga biror bir elementni qo'shib beradi</span></li>
+        <li>shift() - <span>Arrayni boshidan biror bir elementni olib tashlaydi</span></li>
+        <li>reverse() - <span>Arrayni teskarisiga o'girib beradi, misol [a,b], [b,a]</span></li>
+        <li>filter() - <span>Array ichidagi turli xil turdagi ma'lumotlarni filterlashda ishlatiladi</span></li>
+        <li>find() - <span>Birinchi bo'lib shartni bajargan array elementini qaytaradi. Array ichidagi biror elementni qidirishda ishlatiladi</span></li>
+        <li>findIndex() - <span>Birinchi bo'lib shartni bajargan array elementini  joylashgan o'rnini qaytaradi. Array ichidagi biror elementni joylashgan joyini topishda ishlatiladi</span></li>
+        <li>map() - <span>Har bir massiv elementi uchun berilgan funktsiyani chaqirib,  yangi array yaratadi</span></li>
+        <li>sort() - <span>Elementlarni alfavit tartibida, satrlar sifatida va o'sish tartibida tartiblaydi</span></li>
+        <li>splice() - <span>Massivdagi biror bir element yoki elementlar o'rniga boshqa bir elementni joylashtirishimiz mukin yoki shunchaki massivdagi biror bir elementdan keyinga biror bir elementni qo'shib qo'yishimiz mumkin</span></li>
+    </ol>
+    <!-- JAVASCRIPT METHODLAR END -->
+
+    <!-- JAVASCRIPT OBJECT METODLAR -->
+    <ol>
+        <h2>Object Methodlar</h2>
+        <li>Object.assign() - <span>Obyektdagi va arraydagi ma'lumotlarni nusxalab beradi.</span></li>
+        <li>Object.entries() - <span>Obyektdagi ma'limotlani array ichidagi arraylarga bo'lib beradi.</span></li>
+        <li>Object.keys() - <span>Obyektdagi "key" larni alohida arrayga kiritib beradi.</span></li>
+        <li>Object.values() - <span>Obyektdagi "value" larni alohida arrayga kiritib beradi.</span></li>
+    </ol>
+    <!-- JAVASCRIPT OBJECT METODLAR END -->
+
+    <!-- JAVASCRIPT FUNCTION LAR -->
+    <ol>
+        <h2>JavaScript Funktsiyalari</h2>
+        <li>Function decloration</li>
+        <li>Function expression</li>
+        <li>Arrow Function</li>
+    </ol>
+    <!-- JAVASCRIPT FUNCTION LAR END -->
+
+    <!-- OBJECT METH PROPERTY LAR -->
+    <ol>
+        <h2>Object Meth Propertylari</h2>
+        <li>Math.round() - <span>Sonni eng yaqin butun qismiga qarab yaxlitlaydi</span></li>
+        <li>Math.floor() - <span>Sonni eng yaqin kichik qismiga qarab yaxlitlaydi</span></li>
+        <li>Math.ceil() - <span>Sonni eng yaqin katta qismiga qarab yaxlitlaydi</span></li>
+        <li>Math.trunc() - <span>Sonni butun qilib yaxlitlaydi</span></li>
+        <li>Math.random() - <span>0 dan 1 gacha bo'lgan ixtiyoriy raqamni qaytaradi</span></li>
+    </ol>
+    <!-- OBJECT METH PROPERTY LAR END-->
+
+    <!-- TRUTHY AND FALSY VALUES  -->
+    <ol class="truthy-falsy">
+        <h2>Truthy and Falsy values</h2>
+        <li>
+            <h4>Falsy Values</h4>
+            <img src="./images/Screenshot_1.png" alt="">
+        </li>
+        <li>
+            <h4>Truthy Values</h4>
+            <img src="./images/truthy.png" alt="">
+        </li>
+    </ol>
+    <!-- TRUTHY AND FALSY VALUES END -->
+
+    <!-- Parent, Children & Sibling Elements  -->
+    <ol>
+        <h2>Parent, Children & Sibling Elements</h2>
+        <li>
+            parentElement - <span>Tanlangan elementni "ota" elementini chiqarib beradi</span>
+        </li>
+        <li>
+            children - <span>Tanlangan elementni barcha "farzand" elementlarini chiqarib beradi</span>
+        </li>
+        <li>
+            nextElementSibling - <span>Tanlangan elementdan keyin kelayotgan "aka-uka" elementini chiqarib beradi</span>
+        </li>
+        <li>
+            previousElementSibling - <span>Tanlangan elementdan oldin kelayotgan "aka-uka" elementini chiqarib beradi</span>
+        </li>
+    </ol>
+    <!-- TParent, Children & Sibling Elements END -->
+
+    <!-- TRUTHY AND FALSY VALUES  -->
+    <ol>
+        <h2>JavaScript Methods</h2>
+        <li>
+            remove()- <span>Biror bir elementni o'chirib tashlaydi</span>
+        </li>
+        <li>
+            appendChild() - <span>ixtiyoriy element yaratish imkonini beradi</span>
+        </li>
+        <li>
+            prepend() - <span>Ixtiyoriy elementni yaratib uni ro'yhat boshiga qo'shib qo'yadi</span>
+        </li>
+        <li>
+            stopPropagation() - <span>Tanlangan elementni faqat o'zini chiqarib beradi ya'ni otasi ham tanlanib qolinishini oldini oladi</span>
+        </li>
+        
+    </ol>
+    <!-- TRUTHY AND FALSY VALUES END -->
+</body>
+</html>
